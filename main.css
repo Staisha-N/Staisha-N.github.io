@@ -253,9 +253,28 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    animation: fadeLower 2s ease;
-    
+    animation: fadeLower 2s ease;  
   }
+
+
+.project-row {
+  overflow: hidden;
+  position: relative;
+}
+.project-row:after {
+  content: "";
+  display: block;
+  height: 7px;
+  width: 100%;
+  background-image: repeating-linear-gradient(45deg, #666, #666 1px, transparent 2px, transparent 5px);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-top: 1px solid #666;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-size: 7px 7px;
+}
   
   .project-row {
     display: flex;
@@ -267,15 +286,22 @@ body {
     margin-bottom: 1.5em;
     width: 75vw;
     padding: 0 1.2em;
-    transition: ease 0.3s;
-      
+    transition: ease 0.3s;  
   }
-  .project-row:hover {
-    background: linear-gradient(to left, var(--darker-grey) 50%, rgba(32, 107, 248, 0.71));
-    border-radius: 14px;
-    transform: translateX(6px);
-  }
+
+.project-row:hover {
+  background-color: #666;
+  color: #fff;
+  border-color: #000;
+}
+.project-row:hover:after {
+  background-image: repeating-linear-gradient(45deg, #fff, #fff 1px, transparent 2px, transparent 5px);
+  border-top: 1px solid #000;
+  -webkit-animation: stripe-slide 12s infinite linear forwards;
+          animation: stripe-slide 12s infinite linear forwards;
+}
   
+/* Irrelevant to button effect*/
   .project-title {
     font-size: clamp(1em, 1.6em);
     margin-top: 0.8em;
@@ -283,11 +309,9 @@ body {
     letter-spacing: 0.1rem;
   }
   
-
   .project-description {
     color: var(--white);
-    font-size: 0.85em;
-     
+    font-size: 0.85em;  
   }
   
   .project-info-2 {
@@ -307,10 +331,10 @@ body {
     margin-right: 2.5em;
   }
   
-  #projects .buttonElement::before {
+  #projects .btn--stripe::before {
     content: "BROWSE CODE";
   }
-  #projects .buttonElement:hover::before {
+  #projects .btn--stripe:hover::before {
     content: "GITHUB";
     letter-spacing: 0.1rem;
     padding: 0 1.2em;
