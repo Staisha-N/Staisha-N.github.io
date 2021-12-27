@@ -66,10 +66,11 @@
 body {
   margin: 0;
   overflow-x: hidden;
+    background-color: aqua;
 }
 
 ::-webkit-scrollbar {
-  width: 0.3em;
+  width: 1em;
   height: 0.3em;
   background-color: var(--black);
 }
@@ -77,7 +78,7 @@ body {
   background-color: var(--accent-colour);
 }
 ::-webkit-scrollbar-thumb:hover {
-  background-color: rgb(25, 201, 96);
+  background-color: rgba(32, 107, 248, 0.71);
 }
 
   
@@ -134,6 +135,7 @@ body {
   
   #nav-container {
     background-color: var(--black);
+    background-image: url(circuit.jpg);
     display: flex;
     justify-content: space-between;
     padding: 1.5em;
@@ -226,7 +228,7 @@ body {
     margin-top: 2em;
   }
   
-  #current {
+  #checkers {
     position: absolute;
     right: 0;
     top: 0;
@@ -234,6 +236,7 @@ body {
     display: none;
     animation: fade 2s ease;
   }
+
   .cls-1 {
     animation: colorBreath 2s linear alternate infinite;
   }
@@ -253,7 +256,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    animation: fadeLower 2s ease;  
+    animation: fadeLower 2s ease; 
   }
 
 
@@ -277,7 +280,7 @@ body {
 }
   
   .project-row {
-    display: flex;
+    display: list;
     flex-direction: column;
     background: var(--darker-grey);
     background-position: 0px 0px;
@@ -399,36 +402,36 @@ body {
   
   /*****HOBBIES*****/
   
-  #hobbies {
+  #experience {
     background-color: var(--darker-grey);
     color: var(--white);
     padding: 3em 2em;
   }
   
-  #hobbies-inner {
+  #experience-inner {
     display: flex;
     overflow-x: scroll;
     padding-bottom: 4em;
   }
   
-  .hobby-div {
+  .experience-div {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   
-  #hobbies h3 {
+  #experience h3 {
     color: var(--accent-colour);
     font-family: courier;
     font-size: 1.4em;
     animation: fadeSlideLeft 2s ease;
   }
   
-  #hobbies p {
+  #experience p {
     animation: fadeSlideLeft 2s ease;
   }
   
-  #hobbies .caption {
+  #experience .caption {
     color: var(--accent-colour);
     font-family: courier;
     font-size: 1em;
@@ -436,7 +439,7 @@ body {
     animation: fadeSlideLeft 2s ease;
   }
   
-  #hobbies img {
+  #experience img {
     width: 85vw;
     max-width: 400px;
     border: 2px solid var(--accent-colour);
@@ -445,11 +448,7 @@ body {
     animation: fadeLower 2s ease;
   }
   
-  
-  
-  
-  
-  
+
   /*****CONTACT*****/
   
   #contact {
@@ -473,32 +472,6 @@ body {
     transform: translateX(5px);
   }
   
-  
-  
-  
-  
-  /*****FOOTER*****/
-  
-  #footer {
-    background-color: var(--black);
-    text-align: center;
-    padding: 2em;
-  }
-  
-  #footer a {
-    color: var(--white);
-    transition: ease 0.2s;
-    animation: fadeRaise 2s ease;
-  }
-  #footer a:hover {
-    color: var(--accent-colour);
-  }
-  
-  
-  
-  
-  
-  
   /*****MEDIA QUERIES*****/
   
   @media only screen and (min-width: 430px) {
@@ -512,13 +485,9 @@ body {
       width: 0.6em;
     }
   
-  
-    
     h2 {
       font-size: 3em;
     }
-  
-    
   
     #logo-small {
       display: none;
