@@ -2,15 +2,7 @@
 
 @font-face {
     font-family: 'Titillium Web', serif;
-/*
-    font-family: 'Beckman';
-    src: url("../FONT/BeckmanFree.woff2") format("woff2"),
-         url("../FONT/BeckmanFree.woff") format("woff"),
-         url("../FONT/Beckman-Free.otf") format("opentype");
-*/
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+
   }
   
   /*****ANIMATIONS*****/
@@ -62,31 +54,32 @@
   }
 
   /*****ROOT + BODY + SCROLLBAR*****/
-  
-  :root {
-    --black: #000000;
-    --dark-grey: #16191C;
-    --darker-grey: #111111;
-    --white: #FFFFFF;
-    --accent-colour: rgba(32, 107, 248, 0.71);
-  }
-  
-  body {
-    margin: 0;
-    overflow-x: hidden;
-  }
-  
-  ::-webkit-scrollbar {
-    width: 0.3em;
-    height: 0.3em;
-    background-color: var(--black);
-  }
-  ::-webkit-scrollbar-thumb {
-    background-color: var(--accent-colour);
-  }
-  ::-webkit-scrollbar-thumb:hover {
-    background-color: rgb(25, 201, 96);
-  }
+
+:root {
+  --black: #000000;
+  --dark-grey: #16191C;
+  --darker-grey: #111111;
+  --white: #FFFFFF;
+  --accent-colour: #20F877;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 0.3em;
+  height: 0.3em;
+  background-color: var(--black);
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--accent-colour);
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(25, 201, 96);
+}
+
   
   /*****GLOBAL STYLES*****/
   
