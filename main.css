@@ -60,7 +60,7 @@
   --dark-grey: #16191C;
   --darker-grey: #111111;
   --white: #FFFFFF;
-  --accent-colour: #20F877;
+  --accent-colour: rgba(32, 107, 248, 0.71);
 }
 
 body {
