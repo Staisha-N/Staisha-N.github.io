@@ -259,7 +259,13 @@ body {
     align-items: center;
     animation: fadeLower 2s ease; 
   }
-
+#big-title {
+  font-family: 'Courier Prime', cursive;
+  padding-bottom: 1.5em;
+  font-size: 2em;
+    text-align: center;
+    animation: fadeLower 2s ease;
+}
 
 .project-row {
   overflow: hidden;
@@ -307,24 +313,20 @@ body {
   
 /* Irrelevant to button effect*/
   
-  #big-project-title {
-   background-color: var(--darker-grey); 
-   color: var(--white);
-   padding-top: 30px;
-   padding-bottom: 0px;
-   font-family: 'Courier Prime';
-  }
 
   .project-title {
-    font-size: clamp(1em, 1.6em);
+    font-size: 1.5em;
     margin-top: 0.8em;
     margin-bottom: 0.5em;
     letter-spacing: 0.1rem;
+    font-family: 'Titillium Web', serif;
   }
+
   
   .project-description {
     color: var(--white);
-    font-size: 0.85em;  
+    font-size: 1em;
+    font-family: courier;
   }
   
   .project-info-2 {
@@ -373,18 +375,21 @@ body {
   #education h3 {
     color: var(--accent-colour);
     font-family: courier;
-    font-size: 1.4em;
+    font-size: 1.8em;
     animation: fadeSlideLeft 2s ease;
+    padding-bottom: 0.5em;
   }
   
   #education p {
     animation: fadeSlideLeft 2s ease;
+      padding-bottom: 1.5em;
+      font-size: 1.3em;
   }
   
   #education .caption {
     color: var(--accent-colour);
     font-family: courier;
-    font-size: 1em;
+    font-size: 1.3em;
     font-style: italic;
     animation: fadeSlideLeft 2s ease;
   }
@@ -401,8 +406,10 @@ body {
   }
   #education img:hover {
     transform: translateY(5px);
-    border-radius: 14px;
-    box-shadow: 0 0 14px var(--accent-colour);
+    border-style: dashed;
+    border-radius: 10px;
+    border-color: var(--accent-colour);
+    border-width: 3px; 
   }
   
   
@@ -410,8 +417,15 @@ body {
   
   
   
-  /*****HOBBIES*****/
-  
+  /*****EXPERIENCE*****/
+#big-experience-title {
+   background-color: var(--dark-grey); 
+   color: var(--white);
+   padding-top: 30px;
+   padding-bottom: 0px;
+   font-family: 'Courier Prime';
+   font-size: 2em;
+}
   #experience {
     background-color: var(--darker-grey);
     color: var(--white);
