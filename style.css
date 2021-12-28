@@ -7,7 +7,7 @@
   transform: translate(-50%, 35%);
   height: 160px;
   overflow: hidden;
-  font-family: "Lato", sans-serif;
+  font-family: 'Courier Prime', monospace, cursive;
   font-size: 20px;
   line-height: 40px;
   color: #ecf0f1;
@@ -30,7 +30,7 @@
 .content__container:after, .content__container:before {
   position: absolute;
   top: 0;
-  color: #16a085;
+  color: #ff8933;
   font-size: 42px;
   line-height: 40px;
   -webkit-animation-name: opacity;

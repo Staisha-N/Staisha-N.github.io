@@ -60,13 +60,13 @@
   --dark-grey: #16191C;
   --darker-grey: #111111;
   --white: #FFFFFF;
-  --accent-colour: rgba(32, 107, 248, 0.71);
+  --accent-colour: #ff8933;
 }
 
 body {
   margin: 0;
   overflow-x: hidden;
-    background-color: aqua;
+  background-color: var(--black);
 }
 
 ::-webkit-scrollbar {
@@ -135,7 +135,7 @@ body {
   
   #nav-container {
     background-color: var(--black);
-    background-image: url(circuit.jpg);
+    background-image: url(space.png);
     display: flex;
     justify-content: space-between;
     padding: 1.5em;
@@ -190,10 +190,11 @@ body {
     background-color: var(--dark-grey);
     display: flex;
     flex-direction: column;
-    padding: 2.5em;
+    padding-top: 2.5em;
     align-items: center;
     text-align: center;
     position: relative;
+    padding-bottom: 0em;
   }
   
   #name-title {
@@ -282,7 +283,7 @@ body {
   .project-row {
     display: list;
     flex-direction: column;
-    background: var(--darker-grey);
+    background: #14182e;
     background-position: 0px 0px;
     border: 1px solid rgba(32, 107, 248, 0.71);
     border-radius: 8px;
@@ -293,7 +294,7 @@ body {
   }
 
 .project-row:hover {
-  background-color: #666;
+  background-image: url(space.png);
   color: #fff;
   border-color: #000;
 }
@@ -305,6 +306,15 @@ body {
 }
   
 /* Irrelevant to button effect*/
+  
+  #big-project-title {
+   background-color: var(--darker-grey); 
+   color: var(--white);
+   padding-top: 30px;
+   padding-bottom: 0px;
+   font-family: 'Courier Prime';
+  }
+
   .project-title {
     font-size: clamp(1em, 1.6em);
     margin-top: 0.8em;
@@ -470,7 +480,19 @@ body {
   
   #contact .buttonElement:hover {
     transform: translateX(5px);
+      
   }
+
+/*****FOOTER*****/
+
+#footer {
+  background-color: var(--black);
+  text-align: center;
+  padding: 0.5em;
+  color: white;
+  font-family: 'Libre Barcode 39 Extended Text', cursive;
+  font-size: 3em;
+}
   
   /*****MEDIA QUERIES*****/
   
