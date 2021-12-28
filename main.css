@@ -429,13 +429,14 @@ body {
   #experience {
     background-color: var(--darker-grey);
     color: var(--white);
-    padding: 3em 2em;
+    padding: 2em 2em;
   }
   
   #experience-inner {
     display: flex;
     overflow-x: scroll;
     padding-bottom: 4em;
+    align-items: center;
   }
   
   .experience-div {
