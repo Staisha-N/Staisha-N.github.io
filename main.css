@@ -134,15 +134,13 @@ body {
   /*****NAVBAR*****/
   
   #nav-container {
-    background-color: var(--black);
     background-image: url(space.png);
     display: flex;
   justify-content: space-between;
-  padding: 1.5em;
+  padding: 3em;
   position: sticky;
   top: 0;
   z-index: 1;
-      overflow-x: scroll;
   }
   
   #logo-small {
@@ -176,7 +174,7 @@ body {
     animation: fadeSlideLeft 2s ease;
   }
   #nav-container ul a {
-    font-size: 2em;
+    font-size: 0.7em;
     padding: 0.7em;
     transition: ease 0.2s;
   }
