@@ -137,12 +137,11 @@ body {
     background-color: var(--black);
     background-image: url(space.png);
     display: flex;
-    justify-content: space-between;
-    position: sticky;
-    font-size: 1em;
-    padding: 3.5em;
-    top: 0;
-    z-index: 1; /* One stacking level above all other content (z-index: 0), so navbar stays above hovered elements */
+  justify-content: space-between;
+  padding: 1.5em;
+  position: sticky;
+  top: 0;
+  z-index: 1;
   }
   
   #logo-small {
