@@ -4,7 +4,7 @@
 <head>
     <meta charshet="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>STAISHA NEVILLE | Portfolio</title>
+    <title>STAISHA NEVILLE</title>
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./school-btn-style.css">
@@ -33,12 +33,18 @@
     <div id="nav-container">
         <a href="index.html" id="logo-large">STAISHA NEVILLE</a>
         <a href="index.html" id="logo-small">SN</a>
-        <ul>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#experiece">Experience</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+            <div class="navbar">
+                <div class="dropdown">
+                    <button class="dropbtn">Menu
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="#projects">Projects</a>
+                      <a href="#education">Education</a>
+                      <a href="#experience">Experience</a>
+                    </div>
+                </div> 
+            </div>
         
     </div>
 
@@ -145,10 +151,6 @@
     </section>
 
     
-    <!-- FOOTER -->
-    <section id="footer">
-        <p> STAISHA NEVILLE</p>
-    </section>
 
     <!-- SCRIPT -->
     <script src="script.js"></script>
