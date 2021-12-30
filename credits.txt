@@ -1,12 +1,41 @@
-stripped button border: https://codepen.io/Zeindelf/pen/vZbyEg
-space background: https://www.reddit.com/r/PixelArt/comments/f1wg26/space_background/
-Tristan's page
+CREDITS:
+
+    CODE:
 
 /**********************************************************
-*    Title: <title of program/source code>
-*    Author: <author(s) names>
-*    Date: <date>
+*    Title: tristanparry.github.io
+*    Author: Tristan Parry
+*    Date: 27 Aug 2021
+*    Code version: 29.0
+*    Availability: https://github.com/tristanparry/tristanparry.github.io
+*
+***********************************************************/
+
+/**********************************************************
+*    Title: Stripped Diagonal Button Single Border
+*    Author: Zeindelf
+*    Date: 14 Oct 2018
+*    Code version: 1.0
+*    Availability: https://codepen.io/Zeindelf/pen/vZbyEg
+*
+***********************************************************/
+
+/**********************************************************
+*    Title: Text animation
+*    Author: Yoann
+*    Date: 17 Feb 2017
+*    Code version: 1.0
+*    Availability: https://codepen.io/yoannhel/pen/sJpDj
+*
+***********************************************************/
+
+    IMAGES
+
+/**********************************************************
+*    Title: Space Background
+*    Author: astrellon3
+*    Date: 10 Feb 2020
 *    Code version: <code version>
-*    Availability: <where it's located>
+*    Availability: https://www.reddit.com/r/PixelArt/comments/f1wg26/space_background/
 *
 ***********************************************************/

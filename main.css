@@ -234,7 +234,7 @@ body {
     background-image: url(space.png);
     display: flex;
     flex-direction: column;
-    padding-top: 2.5em;
+    padding-top: 10em;
     align-items: center;
     text-align: center;
     position: relative;
