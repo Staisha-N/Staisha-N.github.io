@@ -16,7 +16,7 @@
 }
 
 .btn {
-  overflow: visible;
+  overflow:hidden;
   margin: 0;
   padding: 0;
   border: 0;
