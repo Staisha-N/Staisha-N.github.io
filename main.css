@@ -288,22 +288,33 @@ body {
   
   /*****PROJECTS*****/
   
-
+#overlap {
+    align-items: center;
+    background-color: white;
+    color: var(--white);
+    padding-top: -10em;
+    padding-left: 2em;
+    padding-right: 2em;
+    overflow: hidden;
+  }
 
   #projects {
-    display: block;
+    display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #14182e;
     color: var(--white);
     padding: 3em 2em;
+      overflow: hidden;
   }
   
   #project-list {
-    display: block;
+    display: inline-grid;
     flex-direction: column;
     align-items: center;
     animation: fadeLower 2s ease; 
+      overflow: hidden;
+    
   }
 #big-title {
   font-family: 'Courier Prime', cursive;
@@ -343,6 +354,7 @@ body {
     width: 75vw;
     padding: 0 1.2em;
     transition: ease 0.3s;  
+      overflow: hidden;
   }
 
 .project-row:hover {
