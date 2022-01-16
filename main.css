@@ -288,8 +288,10 @@ body {
   
   /*****PROJECTS*****/
   
+
+
   #projects {
-    display: flex;
+    display: block;
     flex-direction: column;
     align-items: center;
     background-color: #14182e;
@@ -298,7 +300,7 @@ body {
   }
   
   #project-list {
-    display: flex;
+    display: block;
     flex-direction: column;
     align-items: center;
     animation: fadeLower 2s ease; 
