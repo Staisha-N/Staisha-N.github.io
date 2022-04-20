@@ -295,25 +295,25 @@ body {
     padding-top: -10em;
     padding-left: 2em;
     padding-right: 2em;
-    overflow: hidden;
+    overflow: visible;
   }
 
   #projects {
-    display: flex;
-    flex-direction: column;
+    display: inline-block;
+    /*flex-direction: column;*/
     align-items: center;
     background-color: #14182e;
     color: var(--white);
     padding: 3em 2em;
-      overflow: hidden;
+      overflow: visible;
   }
   
   #project-list {
     display: inline-grid;
-    flex-direction: column;
+    /*flex-direction: column;*/
     align-items: center;
     animation: fadeLower 2s ease; 
-      overflow: hidden;
+      overflow: visible;
     
   }
 #big-title {
@@ -325,7 +325,7 @@ body {
 }
 
 .project-row {
-  overflow: hidden;
+  overflow: visible;
   position: relative;
 }
 .project-row:after {
