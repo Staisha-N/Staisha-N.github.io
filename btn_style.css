@@ -30,8 +30,8 @@
   text-transform: uppercase;
   padding: 16px 36px 22px;
   background-color: #14182e;
-  color: #666;
-  border: 2px solid #666;
+  color: rgb(255, 255, 255);
+  border: 2px solid rgb(255, 255, 255);
   border-radius: 6px;
   margin-bottom: 16px;
   transition: all 0.5s ease;
@@ -49,7 +49,7 @@
   display: inline-block;
   height: 7px;
   width: 100%;
-  background-image: repeating-linear-gradient(45deg, #666, #666 1px, transparent 2px, transparent 5px);
+  background-image: repeating-linear-gradient(45deg, rgb(255, 255, 255), rgb(255, 255, 255) 1px, transparent 2px, transparent 5px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   border-top: 1px solid #666;
@@ -59,7 +59,7 @@
   background-size: 7px 7px;
 }
 .btn--stripe:hover {
-  background-color: #666;
+  background-color: rgb(255, 255, 255);
   color: #fff;
   border-color: #000;
   background-image: url(space.png);
