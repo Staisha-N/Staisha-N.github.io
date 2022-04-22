@@ -541,6 +541,13 @@ body {
       
   }
   
+  #matrox img:hover {
+    transform: translateY(5px);
+    border-style: dashed;
+    border-radius: 10px;
+    border-color: var(--accent-colour);
+    border-width: 3px; 
+  }
 
   /*****CONTACT*****/
   
